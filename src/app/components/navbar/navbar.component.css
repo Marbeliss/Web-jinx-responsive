@@ -1,0 +1,35 @@
+.navbar{
+  padding: -1rem;
+  background-color: #0a141c;
+  position:fixed;
+  z-index: 100;
+  min-width: 100%;
+  box-shadow: 0 0 1em;
+}
+
+.navbar-collapse{
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-link{
+  font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
+  color: #d7ccd7;
+}
+
+
+@media screen and (max-width:767px){
+  .navbar-brand{
+    display: none;
+    position: fixed;
+  }
+}
+
+.nav-link:hover{
+  border-bottom: 1px solid rgb(248, 248, 248);
+  color: rgb(255, 255, 255);
+  transition: 90ms ease-in-out all;
+  box-shadow: 7px 5px 56px #d7ccd7;
+}
+

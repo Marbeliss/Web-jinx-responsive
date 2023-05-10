@@ -1,0 +1,63 @@
+.fondo{
+  background-image: url(https://images.contentstack.io/v3/assets/blt0eb2a2986b796d29/blta84d6d394801dedb/615a859d9c76234dd174c195/arcane.jpg??&format=pjpg&quality=85);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 11;
+}
+
+.montañas{
+  background-image: url(https://www.leagueoflegends.com/static/championstyle_01-dc617921291c69586acbebec745b4191.png);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 20rem;
+  position: absolute;
+  z-index: 2;
+}
+
+.Logo-De-LOL{ /*Logo de LOL*/
+  width: 17rem;
+  top: 10rem;
+  position: fixed;
+  z-index: 3;
+}
+
+
+.Intro-h3{
+  font-size: 2.4rem;
+  margin-top: 2px;
+  color: rgb(252, 252, 252);
+  position: fixed;
+  z-index: 4;
+}
+
+.Intro-p{
+  line-height: 1.5em;
+  color: rgb(252, 252, 252);
+  font-size: 1em;
+  margin-top: 10rem;
+  position: fixed;
+  z-index: 7;
+}
+
+
+.Jinx{
+  width: 19rem;
+  margin-top: 20rem;
+  z-index: 5;
+}
+
+@media screen and (min-width:31.25rem){
+  .Jinx{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 31.25rem) {
+  .Intro-p{
+    display: none;
+  }
+}
